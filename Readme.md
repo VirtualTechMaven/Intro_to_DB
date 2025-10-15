@@ -64,34 +64,17 @@ It demonstrates how to:
 ---
 
 ##  How to Run
-
-### 1. Create the Database
-```bash
+- Create the Database
 python3 MySQLServer.py
-
----
-
-##  Create Tables
+- Create Tables
 mysql -u root -p alx_book_store < task_2.sql
-
----
-
-##  List Tables
+- List Tables
 mysql -u root -p alx_book_store < task_3.sql
-
----
-
-##  Describe Books Table
+- Describe Books Table
 mysql -u root -p alx_book_store < task_4.sql
-
----
-
-##  Insert Single Customer
+- Insert Single Customer
 mysql -u root -p alx_book_store < task_5.sql
-
----
-
-##  Insert Multiple Customers
+- Insert Multiple Customers
 mysql -u root -p alx_book_store < task_6.sql
 
 ---
